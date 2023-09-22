@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+    border-radius: 10px;
+}
+
+
+img:hover {
+	transform: scale(1.1);
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #ebc2f3;
+}
+#fig{
+    margin-top: 2px;
+	width: auto;
+	margin: auto;
+    display: block;
+}
+.header {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px;
+	
+	color: #000000;
+    background-image: url(https://aniyuki.com/wp-content/uploads/2022/05/aniyuki-anya-spy-x-family-5.gif);
+	
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1, p{
+	font-family: cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+hr {
+	border-color: black;
+	width: 500px;
+	margin-top: -40px;
+}
+div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 20px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    padding-left: 10px;
+      
+    
+  }
+  p{
+	justify-content: center;
+	
+
+  }
